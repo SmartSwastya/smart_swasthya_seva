@@ -104,12 +104,13 @@ def push_code_to_github():
         logging.error(f"❌ Error pushing code to GitHub: {e}")
 
 # ⏰ Function to Check for Updates Periodically
-def # schedule_periodic_updates():
-    while True:
-        logging.info("⏰ Checking for updates from GitHub...")
-        fetch_latest_code()
-        logging.info("🔄 Waiting for the next update check...")
-        time.sleep(3600)
+# def schedule_periodic_updates():
+#     while True:
+#         logging.info("⏰ Checking for updates from GitHub...")
+#         fetch_latest_code()
+#         logging.info("🔄 Waiting for the next update check...")
+#         time.sleep(3600)
+
 
 # 🧠 Main function to run the setup tasks and show dynamic updates
 def setup_project():
