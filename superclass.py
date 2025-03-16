@@ -104,7 +104,7 @@ def push_code_to_github():
         logging.error(f"❌ Error pushing code to GitHub: {e}")
 
 # ⏰ Function to Check for Updates Periodically
-def schedule_periodic_updates():
+def # schedule_periodic_updates():
     while True:
         logging.info("⏰ Checking for updates from GitHub...")
         fetch_latest_code()
@@ -116,7 +116,7 @@ def setup_project():
     logging.info("🎉 Starting project setup...")
     install_requirements()
     logging.info("🎉 Project setup completed successfully!")
-    schedule_periodic_updates()
+    # schedule_periodic_updates()
 
 # 🌟 Run the project setup
 if __name__ == "__main__":
