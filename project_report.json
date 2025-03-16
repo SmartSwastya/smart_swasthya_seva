@@ -1,0 +1,150 @@
+{
+    "project_structure": {
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva": [
+            "db.sqlite3",
+            "manage.py",
+            "project_report.json",
+            "py.py",
+            "requirements.txt",
+            "superclass.py",
+            "urls.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\admin_panel": [
+            "admin.py",
+            "apps.py",
+            "models.py",
+            "tests.py",
+            "urls.py",
+            "views.py",
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\admin_panel\\migrations": [
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\docs": [],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\doctor": [
+            "admin.py",
+            "apps.py",
+            "models.py",
+            "tests.py",
+            "urls.py",
+            "views.py",
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\doctor\\migrations": [
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\home": [
+            "admin.py",
+            "apps.py",
+            "models.py",
+            "tests.py",
+            "urls.py",
+            "views.py",
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\home\\templates": [
+            "index.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\media": [],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\patient": [
+            "admin.py",
+            "apps.py",
+            "models.py",
+            "tests.py",
+            "urls.py",
+            "views.py",
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\patient\\migrations": [
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\service": [
+            "urls.py",
+            "views.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\smart_swasthya_seva": [
+            "asgi.py",
+            "settings.py",
+            "urls.py",
+            "wsgi.py",
+            "__init__.py"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles": [],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\css": [
+            "style.css"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\images": [
+            "logo.png"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\js": [
+            "script.js"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates": [
+            "index.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\admin_panel": [
+            "admin_panel.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\doctor": [
+            "doctor.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\Home": [
+            "home.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\patient": [
+            "patient.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\service": [
+            "service.html"
+        ],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app": [],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app\\management": [],
+        "D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app\\management\\commands": [
+            "scan_urls.py",
+            "__init__.py"
+        ]
+    },
+    "missing_files": [
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\admin_panel\\migrations",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\admin_panel\\migrations",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\docs",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\docs",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\doctor\\migrations",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\doctor\\migrations",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\home\\templates",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\home\\templates",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\media",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\media",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\patient\\migrations",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\patient\\migrations",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\smart_swasthya_seva",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\css",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\css",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\images",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\images",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\js",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\staticfiles\\js",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\admin_panel",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\admin_panel",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\doctor",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\doctor",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\Home",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\Home",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\patient",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\patient",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\service",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\templates\\service",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app\\management",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app\\management",
+        "Missing 'urls.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app\\management\\commands",
+        "Missing 'views.py' in D:\\smartswasthyawebsite\\smart_swasthya_seva\\your_app\\management\\commands"
+    ]
+}

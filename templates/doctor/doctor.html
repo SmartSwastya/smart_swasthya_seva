@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors | Healthcare Platform</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctor.html">Doctors</a></li>
+                <li><a href="patient.html">Patients</a></li>
+                <li><a href="admin_panel.html">Admin Panel</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Doctors Section -->
+    <section id="doctor">
+        <h2>Doctors</h2>
+        <div class="doctor-list">
+            <div class="doctor-card">
+                <img src="{% static 'images/doctor1.jpg' %}" alt="Doctor 1">
+                <h3>Dr. John Doe</h3>
+                <p>Cardiologist</p>
+                <button>Book Appointment</button>
+            </div>
+            <div class="doctor-card">
+                <img src="{% static 'images/doctor2.jpg' %}" alt="Doctor 2">
+                <h3>Dr. Jane Smith</h3>
+                <p>Dermatologist</p>
+                <button>Book Appointment</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Healthcare Platform</p>
+    </footer>
+</body>
+</html>

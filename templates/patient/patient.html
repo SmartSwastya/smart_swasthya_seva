@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Profile | Healthcare Platform</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctor.html">Doctors</a></li>
+                <li><a href="patient.html">Patients</a></li>
+                <li><a href="admin_panel.html">Admin Panel</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Patient Profile Section -->
+    <section id="patient">
+        <h2>Patient Profile</h2>
+        <div class="patient-info">
+            <h3>John Doe</h3>
+            <p>Email: johndoe@example.com</p>
+            <p>Phone: 123-456-7890</p>
+            <button>Request Consultation</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Healthcare Platform</p>
+    </footer>
+</body>
+</html>

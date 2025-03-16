@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel | Healthcare Platform</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctor.html">Doctors</a></li>
+                <li><a href="patient.html">Patients</a></li>
+                <li><a href="admin_panel.html">Admin Panel</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Admin Panel Section -->
+    <section id="admin_panel">
+        <h2>Admin Dashboard</h2>
+        <div class="dashboard">
+            <div class="panel">
+                <h3>Total Appointments</h3>
+                <p>100</p>
+            </div>
+            <div class="panel">
+                <h3>Total Doctors</h3>
+                <p>50</p>
+            </div>
+            <div class="panel">
+                <h3>Total Patients</h3>
+                <p>200</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Healthcare Platform</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Platform</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}"> <!-- Link to static CSS -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="doctor.html">Doctors</a></li>
+                <li><a href="patient.html">Patients</a></li>
+                <li><a href="admin_panel.html">Admin Panel</a></li>
+                <li><a href="service.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Healthcare Platform</h1>
+        <p>Find the best doctors, schedule appointments, and manage your health.</p>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Book an Appointment</h3>
+                <p>Find available doctors and schedule your appointment</p>
+            </div>
+            <div class="card">
+                <h3>Consult a Doctor</h3>
+                <p>Chat or video call with a doctor online</p>
+            </div>
+            <div class="card">
+                <h3>Find a Hospital</h3>
+                <p>Search and discover healthcare facilities near you</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Healthcare Platform</p>
+    </footer>
+</body>
+</html>
